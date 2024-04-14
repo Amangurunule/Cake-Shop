@@ -1,0 +1,138 @@
+#main-section,#top-header {
+    background-color: black;
+   
+}
+#top-header-btn {
+    border: 1px solid #E5BF4A;  
+    color: white;
+    background-color: black;
+}
+#top-header-btn:hover
+{
+    background-color: #E5BF4A;
+}
+#hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0,0,0,0.5)), url(../Images/Background/h1_hero1.jpg);
+    height: 70vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#cake-hero{
+    background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0,0,0,0.5)),url(../Images/Background/h1_hero1.jpg);
+    height: 70vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#hero-content h1
+{
+    font-size: 70px;
+    font-family: "Poiret One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#hero-btn
+{
+    background-color: #E5BF4A;
+}
+#about-content
+{
+    font-family: "Poiret One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#box1 h3
+{
+    color: #E5BF4A;
+    font-family: "Poiret One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#card
+{
+    font-family: "Poiret One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#card p
+{
+    color: #E5BF4A;
+}
+#food-lover-content h2
+{
+    font-family: "Poiret One", sans-serif;
+    font-style: normal;
+    font-size: 50px;
+}
+#blog-content h2
+{
+    font-family: "Poiret One", sans-serif;
+    font-style: normal;
+}
+#blog-box1 h4
+{
+    font-family: "Poiret One", sans-serif;
+    font-style: normal;
+    color: #E5BF4A;
+}
+#follow-btn
+{
+    background-color: black;
+}
+#follow-content h2
+{
+    font-family: "Poiret One", sans-serif;
+    font-style: normal;
+    font-size: 50px;
+}
+#line
+{
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+#follow-btn
+{
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+#contact-info h4
+{
+    color: #E5BF4A;
+    font-family: "Poiret One", sans-serif;
+    font-style: normal;
+}
+#contact-box1 h3 , #contact-box2
+{
+    font-family: "Poiret One", sans-serif;
+    font-style: normal;
+}
+#input-btn
+{
+    background-color: #E5BF4A;
+}
+#ip-box input , #message-bg
+{
+   background-color: black;
+}
+                                                                    /* LAPTOP */
+@media screen and (min-width:1024px){
+    #hero{
+        height: 100vh;
+    }
+    #cake-hero
+    {
+        height: 50vh;
+    }
+}                                                    
+
+                                                                    /* TABLET */
+@media screen and (min-width:768px) and (max-width:1023px){
+    #hero
+    {
+        height: 90vh;
+    }
+    #cake-hero
+    {
+        height: 50vh;
+    }   
+}                                                                     
